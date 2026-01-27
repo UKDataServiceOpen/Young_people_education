@@ -1,10 +1,10 @@
 ---
-title: "Survey data about young people and education"
+title: "Survey data on young people and education"
 author: 
   name: Pierre Walthéry
 institute: UK Data Service
 
-date: "January 2026"
+# date: "January 2026"
 date-format: MMMM YYYY
 brand: _brand.yml
 include-after-body:
@@ -36,7 +36,7 @@ filters:
 
 ---
 
-# The UK Data Service
+<!-- # The UK Data Service -->
 
 
 ## Who we are
