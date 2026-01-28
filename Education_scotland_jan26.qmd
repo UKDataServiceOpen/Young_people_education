@@ -4,7 +4,7 @@ author:
   name: Pierre Walthéry
 institute: UK Data Service
 
-# date: "January 2026"
+date: "January 2026"
 date-format: MMMM YYYY
 brand: _brand.yml
 include-after-body:
@@ -130,7 +130,7 @@ filters:
 - Linked administrative records - more on this later
 
 ## Education-related questions (MCS)
-- Asked in the  Millenium Cohort Study
+<!-- - Asked in the  Millenium Cohort Study -->
 - Qualifications (academic/vocational): 
   - Type; level; grade, subject
 - Current education: 
