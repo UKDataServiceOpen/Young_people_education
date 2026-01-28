@@ -461,6 +461,18 @@ Residents aged 0-24 as a % of the population by [LSOAs](https://www.ons.gov.uk/m
   - Follow the Safe Researcher training
   - Access the data via the SecureLab - ie secure VPN from an institutional computer
   
+## Essential questions to ask yourself
+
+- Data quality
+  - What was the phrasing of the question(s)?
+  - What was the research question/funder of the research?
+  - Is it representative, is the sample size large enough, what is the population of reference?
+  - When was it collected?
+  - Is the documentation – technical report available?
+  - Are weights and survey design information provided?
+- Is a special application required in order to access the data?
+
+
 
 # Conclusion
 
@@ -479,17 +491,17 @@ Residents aged 0-24 as a % of the population by [LSOAs](https://www.ons.gov.uk/m
 
 Any questions: [help@ukdataservice.ac.uk](mailto://help@ukdataservice.ac.uk)
 
-## Links & reference {.smaller}
-
-
-- Greater Manchester Combined Authority (2023)  Census 2021 briefing: Children and young people, [GMCA Research](https://www.greatermanchester-ca.gov.uk/media/9833/census-2021-briefing-children-and-young-people.pdf)
-
-- Parra-Mujica F, Johnson E, Reed H, Cookson R, Johnson M (2023) Understanding the relationship between income and mental health among 16- to 24-year-olds: Analysis of 10 waves (2009–2020) of Understanding Society to enable modelling of income interventions. [PLOS ONE 18(2): e0279845.](https://doi.org/10.1371/journal.pone.0279845)
-- Understanding Society series page  at the [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/series/series/2000053#abstract)
-- [Understanding Society Young People page](https://www.understandingsociety.ac.uk/topic-page/young-people/)
-- UK Data Service (2018): Webinar: research Using Youth and Young Adult Data in Understanding Society: [Recording](https://www.youtube.com/watch?v=r66TKL5sbzg); [Slides ](https://ukdataservice.ac.uk/app/uploads/ukds-youth-and-young-adult-webinar-180718.pdf) 
-
+## Links & references {.smaller}
 
 - Fang-Wei Wu, A., Henderson, M., Brown, M., Adali, T., Silverwood, R. J., Peycheva, D. and Calderwood, L. (2024). ‘Cohort Profile: Next Steps—the longitudinal study of people in England born in 1989–90’, International Journal of Epidemiology, 53(6), [doi: 10.1093/ije/dyae152](https://doi.org/10.1093/ije/dyae152)
 
+- Greater Manchester Combined Authority (2023)  Census 2021 briefing: Children and young people, [GMCA Research](https://www.greatermanchester-ca.gov.uk/media/9833/census-2021-briefing-children-and-young-people.pdf)
 - Kandola A, Owen N, Dunstan DW, Hallgren M (2022). Prospective relationships of adolescents’ screen-based sedentary behaviour with depressive symptoms: the Millennium Cohort Study.Psychological Medicine 52, 3531–3539. [doi: 10.1017/S0033291721000258](https://doi.org/10.1017/S0033291721000258)
+- Parra-Mujica F, Johnson E, Reed H, Cookson R, Johnson M (2023) Understanding the relationship between income and mental health among 16- to 24-year-olds: Analysis of 10 waves (2009–2020) of Understanding Society to enable modelling of income interventions. [PLOS ONE 18(2): e0279845.](https://doi.org/10.1371/journal.pone.0279845)
+- The [Strengths and Difficulties Questionnaire](https://sdqinfo.org/py/sdqinfo/b3.py?language=Englishqz(UK)) 
+- UK Data Service (2018): Webinar: research Using Youth and Young Adult Data in Understanding Society: [Recording](https://www.youtube.com/watch?v=r66TKL5sbzg); [Slides ](https://ukdataservice.ac.uk/app/uploads/ukds-youth-and-young-adult-webinar-180718.pdf) 
+- Understanding Society series page  at the [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/series/series/2000053#abstract)
+- [Understanding Society Young People page](https://www.understandingsociety.ac.uk/topic-page/young-people/)
+
+
+
