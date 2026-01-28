@@ -175,7 +175,7 @@ filters:
 
 
 
-## Example: Kandola et al (2022)
+## Example: Kandola et al (2022){.smaller}
 
 - Screen-based sedentary behaviour and depression
 
@@ -189,7 +189,7 @@ filters:
 - Against frequency of video game, social media, and internet use (age 11).
 - Impact of self-reported physical activity
 
-## Results
+## Results{.smaller}
 
 ![](pics/mcs_sedentary.png){fig-alt="Screenshot from Table 2 from Kandola et al (2022) " fig-align="center" width=90%}
 
@@ -217,7 +217,7 @@ filters:
 
 ![](pics/next_steps_landing.png){fig-alt="Screenshot from Next Steps landing page"}
 
-## Growing Up in Scotland
+## Growing Up in Scotland{.smaller}
 ![](pics/GuS_logo.png){.absolute top=00 left=800 fig-alt="Growing Up in Scotland logo" width=20%  }
 
 - Large-scale, Scottish cohort study ([Website](https://growingupinscotland.org.uk/)) 
@@ -284,10 +284,10 @@ filters:
 - Microsimulation shows that respondents on lower income would benefit the most from increases in their  income, 
 - Focusing on the poorest risks neglecting other vulnerable subgroups, ie  young workers and single youth
 
-## Young people and mental health (2)
+## Young people and mental health (2){.smaller}
 
 
-![Probability of scoring SF-12 MCS ≤45.6 indicating clinical depressive disorder by net equivalised household income quintiles.](pics/PLOS.png){fig-alt="Line plot of the probability of scoring SF-12 MCS ≤45.6 indicating clinical depressive disorder by net equivalised household income quintiles."}
+![Probability of scoring SF-12 MCS ≤45.6 indicating clinical depressive disorder by net equivalised household income quintiles.](pics/PLOS.png){fig-alt="Line plot of the probability of scoring SF-12 MCS ≤45.6 indicating clinical depressive disorder by net equivalised household income quintiles." width=80%}
 
 
 ## Linked administrative datasets
@@ -426,7 +426,7 @@ Residents aged 0-24 as a % of the population by [LSOAs](https://www.ons.gov.uk/m
 ## Levels of access{.smaller}
 ![](pics/levels.png){fig-alt="A slide showwing the four levels of data access at the UK Data Service" width=80%} 
 
-- The lesser the conditions for accesssing the data, the fewer the details included
+- The lesser the conditions for accessing the data, the fewer the details included
 - Open data includes fewer personal information; controlled data significantly more
 - Safeguarded data strikes a compromise between accessibility and level of detail
 <!-- ## Creating a project and downloading the data -->
@@ -451,7 +451,7 @@ Residents aged 0-24 as a % of the population by [LSOAs](https://www.ons.gov.uk/m
 - Et voilà.
 - The steps to follow are detailed  [on our website](https://ukdataservice.ac.uk/help/access-policy/how-to-download-and-order-your-data/)
 
-## Other levels of access
+## Other levels of access{.smaller}
 
 - *Open data*: can be downloaded without registration
 - *ReShare data* (ie deposited) data: conditions will depend on the data owner; most of the time freely downloadable
@@ -497,9 +497,10 @@ Any questions: [help@ukdataservice.ac.uk](mailto://help@ukdataservice.ac.uk)
 
 - [Administrative Data Research - ADR](https://www.adruk.org)
 - Fang-Wei Wu, A., Henderson, M., Brown, M., Adali, T., Silverwood, R. J., Peycheva, D. and Calderwood, L. (2024). ‘Cohort Profile: Next Steps—the longitudinal study of people in England born in 1989–90’, International Journal of Epidemiology, 53(6), [doi: 10.1093/ije/dyae152](https://doi.org/10.1093/ije/dyae152)
-
 - Greater Manchester Combined Authority (2023)  Census 2021 briefing: Children and young people, [GMCA Research](https://www.greatermanchester-ca.gov.uk/media/9833/census-2021-briefing-children-and-young-people.pdf)
 - Kandola A, Owen N, Dunstan DW, Hallgren M (2022). Prospective relationships of adolescents’ screen-based sedentary behaviour with depressive symptoms: the Millennium Cohort Study.Psychological Medicine 52, 3531–3539. [doi: 10.1017/S0033291721000258](https://doi.org/10.1017/S0033291721000258)
+
+## Links & references {.smaller}
 - Parra-Mujica F, Johnson E, Reed H, Cookson R, Johnson M (2023) Understanding the relationship between income and mental health among 16- to 24-year-olds: Analysis of 10 waves (2009–2020) of Understanding Society to enable modelling of income interventions. [PLOS ONE 18(2): e0279845.](https://doi.org/10.1371/journal.pone.0279845)
 - The [Strengths and Difficulties Questionnaire](https://sdqinfo.org/py/sdqinfo/b3.py?language=Englishqz(UK)) 
 - UK Data Service (2018): Webinar: research Using Youth and Young Adult Data in Understanding Society: [Recording](https://www.youtube.com/watch?v=r66TKL5sbzg); [Slides ](https://ukdataservice.ac.uk/app/uploads/ukds-youth-and-young-adult-webinar-180718.pdf) 
