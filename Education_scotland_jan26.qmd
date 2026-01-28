@@ -129,7 +129,8 @@ filters:
 - Smart data (from devices ex accelerometer, energy meter)
 - Linked administrative records - more on this later
 
-## Education-related questions
+## Education-related questions (MCS)
+- Asked in the  Millenium Cohort Study
 - Qualifications (academic/vocational): 
   - Type; level; grade, subject
 - Current education: 
@@ -137,7 +138,7 @@ filters:
   - qualifications studying for: type; number; subjects
 - Are  studies/training choices  informed by job wishes to do
 - From whom obtained post-16 educational advice
-- Drawn from the Millenium Cohort Study
+- The [Strengths and Difficulties Questionnaire](https://sdqinfo.org/py/sdqinfo/b3.py?language=Englishqz(UK)) 
 
 # Major studies
 
