@@ -31,6 +31,7 @@ format:
       alt: "UK Data Service logo"
     css: ukds25.css
     embed-resources: true
+    pdf-max-pages-per-slide: 2
 filters:
   - reveal-header
 
