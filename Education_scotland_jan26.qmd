@@ -1,0 +1,495 @@
+---
+title: "Survey data on young people and education"
+author: 
+  name: Pierre Walthéry
+institute: UK Data Service
+
+# date: "January 2026"
+date-format: MMMM YYYY
+brand: _brand.yml
+include-after-body:
+  - text: |
+      <script type="text/javascript">
+          window.addEventListener('load', function() {
+            var logo = document.querySelector('.slide-logo');
+            var url = 'https://ukdataservice.ac.uk';
+            logo.style.cursor = 'pointer';
+            logo.addEventListener('click', function() {
+              window.open(url, '_blank');
+          });
+        });
+      </script>
+
+format: 
+  revealjs:
+    auto-stretch: false
+    fig-cap-location: top
+    scrollable: true
+    logo: 
+      path: "pics/UKDS_Logos_Col_Grey_300dpi.png"
+      href: "https://ukdataservice.ac.uk"
+      alt: "UK Data Service logo"
+    css: ukds25.css
+    embed-resources: true
+filters:
+  - reveal-header
+
+---
+
+# The UK Data Service
+
+
+## Who we are
+
+- Five partner universities
+
+  - UK Data Archive, University of Essex (lead partner)
+  - Cathie Marsh Institute, University of Manchester 
+  - Jisc, University of Manchester
+  - EDINA, University of Edinburgh
+  - University College London
+
+- 100+ staff
+- Exists as UKDS since 2012 (as UKDA 1967)
+- National data since 2003
+
+## What we do
+
+- The main single point of access for UK social science data 
+- Secondary data collection, curation and access
+- Training and user support
+- Communication and user engagement
+- Impact
+- ... Key part of the UK social science research infrastructure, funded by the UKRI/ESRC
+
+## Our data...
+
+- UK social survey microdata:
+
+  - Cross-sectional: large government and academic surveys
+  - Longitudinal: major studies following people over time
+
+- Multinational data: survey data, aggregate databases  
+- Census tables and individual data – current and historical
+- Business microdata and administrative data
+- Qualitative data: multimedia files  and interview transcripts
+
+## Our training
+
+1. [Webinars and online workshops](ukdataservice.ac.uk/training-events)
+2. User Conferences: Four main user conferences each year
+3. Drop-in sessions: Survey, Computational Social Science and SecureLab 
+4. Online learning materials:  find key resources on our [Learning Hub](https://ukdataservice.ac.uk/learning-hub/)
+5. [Helpdesk](https://beta.ukdataservice.ac.uk/help) for individual data queries
+6. Check out our [YouTube channel](https://www.youtube.com/ukdataservice)
+
+<!-- ## Helpdesk -->
+
+<!-- - Providing direct  assistance to our users -->
+
+<!-- ## Webinars & online workshops -->
+
+<!-- - Covering how to find, access and use key data types, and develop your data skills -->
+
+<!-- - [Current and forthcoming events:](https://ukdataservice.ac.uk/training-events/) -->
+
+
+<!-- ## A dedicated YouTube channel -->
+
+<!-- - Past recorded webinars:​​ -->
+
+<!-- https://www.youtube.com/ukdataservice​ -->
+
+<!-- ## The UKDS Learning Hub -->
+
+# Key datasets for analysing young people and education 
+
+
+## What do we mean by 'data' (1)
+
+- Individual vs aggregated
+- Nature of data: survey vs other source: devices, administrative records, etc.
+- *About* organisations (ie schools) vs people
+- *From* organisations and young people 
+- One off studies vs series
+- Photography (ie cross-sectional) vs video (longitudinal)
+- Our focus today: **individual survey microdata**
+
+
+## What do we mean by 'data' (2)
+
+- Questions asked to people 
+
+  - About objective characteristics ie height, weight, age
+  - About views and attitude:
+  
+    - Attitudes and opinions on crime, gender change
+    - Validated instruments (ie mental health)
+- External measurement (biosample, genetic, cortisol levels)
+- Smart data (from devices ex accelerometer, energy meter)
+- Linked administrative records - more on this later
+
+## Education-related questions
+- Qualifications (academic/vocational): 
+  - Type; level; grade, subject
+- Current education: 
+  - where studying; year; school moves; whether fees-paying
+  - qualifications studying for: type; number; subjects
+- Are  studies/training choices  informed by job wishes to do
+- From whom obtained post-16 educational advice
+- Drawn from the Millenium Cohort Study
+
+# Major studies
+
+## At a glance ...
+
+- (Birth) cohort studies
+- Understanding Society
+- Census
+- Linked data
+- A few repeated cross-sectional studies
+
+
+## Birth cohort studies
+- Follow a sample of individuals from birth until death
+- People born during during the same  specific period of time in 1958(NCDS), 1970(BCS), 2000 (MCS), 2026 (Generation New Area)
+- Wide range of measurements, including education and health
+- Within and between cohort analysis
+- Managed by the Centre for Longitudinal Studies (UCL)
+
+## The Cohort Studies at the CLS
+![](pics/cohort_studies.png){fig-alt="Screenshot from Cohort page on the Center for Longitudinal Studies website" fig-align="center" width=50%}
+
+## Millennium Cohort Study (MCS)
+  
+  - ~ 19K children (born between June 2001 and Jan 2003)
+  - 8 *sweeps*: age 9 months then 3, 5, 7, 11, 14, 17, 23
+  - Parent and child interviews
+  - Education, skills, health, truancy, cognitive ability...
+  - Biological measurements 
+  - ... Socio-economic and demographic  characteristics
+- Data available at the UK Data Service [here](https://datacatalogue.ukdataservice.ac.uk/series/series/2000031#abstract)
+
+
+
+
+## Example: Kandola et al (2022)
+
+- Screen-based sedentary behaviour and depression
+
+  - Is a sedentary lifestyle alongside  screen and device usage,  associated with depression?
+  - Does physical activity make a difference?
+
+- 11,341 teenagers from the Millennium Cohort Study 
+- The main outcome was depressive symptoms at age 14
+  - A measured by the Moods and Feelings questionnaire
+  
+- Against frequency of video game, social media, and internet use (age 11).
+- Impact of self-reported physical activity
+
+## Results
+
+![](pics/mcs_sedentary.png){fig-alt="Screenshot from Table 2 from Kandola et al (2022) " fig-align="center" width=90%}
+
+- IRR: likelihood of depression ($<1=$less likely, $>1=$more likely) 
+
+## Conclusions
+
+- More frequent  gaming at age 11  associated with a lower risk of depressive symptoms at age 14 for boys but not girls. 
+- More frequent social media use at 11  associated with a higher risk of depressive symptoms in  girls but not boys. 
+- More frequent video game use was consistently associated with fewer depressive symptoms for  boys with low physical activity, but not  those with high physical activity
+
+## Next Steps
+![](pics/next_steps_logo.png){.absolute top=00 left=800 fig-alt="Understanding Society logo" width=10%  }
+
+- 16,000 people born in 1989-90 followed from age 13-14
+- Annual sweeps between ages 14-20, then 25 and 32 
+- Oversampling of ethnic minorities and deprived schools
+- Covers educational attainment and aspirations, health and well-being, and social attitudes
+- Linked administrative data available 
+- Transitions from secondary  to post-16  and higher education, family formation, housing, and early labour market entry
+- Available at the [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/series/series/2000030)
+
+## Next Steps on the CLS website
+
+
+![](pics/next_steps_landing.png){fig-alt="Screenshot from Next Steps landing page"}
+
+## Growing Up in Scotland
+![](pics/GuS_logo.png){.absolute top=00 left=800 fig-alt="Growing Up in Scotland logo" width=20%  }
+
+- Large-scale, Scottish cohort study ([Website](https://growingupinscotland.org.uk/)) 
+- Cohort 1: 
+  - A sample of children born in 2005-6
+  - 11 yearly sweeps. Most recent is Sweep 11 (Age 17-18)
+  - 5,217 children at Sweep 1 ---> 2,469 at sweep 11
+- Cohort 2 
+  - a sample of children aged around 10 months in 2011.
+  - 3 sweeps, most recentis Sweep 3 (Age 5 ) 
+  - 6,127 at Sweep 1 --->  4,434 at Sweep 5
+- Growing up in Scotland Series [at the UK Data Service](https://datacatalogue.ukdataservice.ac.uk/series/series/200020) 
+
+
+## GuS Data and variables
+
+- Mental health: depression, Strengths and Difficulties Questionnaire)
+- Diet and sleep; Alcohol consumption, smoking, drug use
+- Anti-social behaviour and offending 
+- Parent physical and mental health
+- Linked  data
+
+  - Sweep 11 school attainment records - using Scottish Candidate Numbers
+  - Sweep 8 Recorded physical activity data 
+
+
+## Understanding Society
+![](pics/US_logo.png){.absolute top=0 left=800 fig-alt="Understanding Society logo" width=20%  }
+
+- Largest longitudinal study  of the UK population
+- 40K households, 100K individuals initially (2009)
+- 17 waves so far: 2009-23. Includes BHPS data 1991-2009
+- Ethnic minority boost samples, innovation panel
+- Very wide range of topics covered:
+
+  - Employment, income, benefits, savings, debt, and assets
+  - Health, well-being, and health behaviour
+  - Housing, housing costs, and dwelling characteristics
+
+## 
+![](pics/US_cover.png){fig-alt="Screenshot from the 'Understanding Children and teenagewrs in the UK' page on the Understanding Society website"}
+
+## 
+![](pics/US_youngppl.png){fig-alt="Screenshot from Young People page fomr the Understanding Society website"}
+
+## Young people in Understanding Society
+
+- [Youth (ie 10-15yo) self-completion questionnaire](https://www.understandingsociety.ac.uk/wp-content/uploads/documentation/main-survey/questionnaires/6614-main-survey-self-completion-questionnaire-youth-w17.pdf) 
+- Usage of smarphone and devices
+- Online vs in person socialising
+- Usage of apps
+- Family support, athmosphere and  trust
+- Strength and Difficulties questionnaire; self-image
+- View about education; schoolwork and  bullying
+
+## Young people and mental health (1)
+*Parra-Mujica, Johnson et al (2023)*
+
+- Positive association between health for the  16 to 24 and:  
+
+  - differences in household income
+  - short-term income changes are significant, 
+
+- Microsimulation shows that respondents on lower income would benefit the most from increases in their  income, 
+- Focusing on the poorest risks neglecting other vulnerable subgroups, ie  young workers and single youth
+
+## Young people and mental health (2)
+
+
+![Probability of scoring SF-12 MCS ≤45.6 indicating clinical depressive disorder by net equivalised household income quintiles.](pics/PLOS.png){fig-alt="Line plot of the probability of scoring SF-12 MCS ≤45.6 indicating clinical depressive disorder by net equivalised household income quintiles."}
+
+
+## Linked administrative datasets
+
+- Records produced when a survey respondent interacts a government organisation
+  - hospitalisation, sitting an exam, becoming an employee
+
+- Can be merged with survey data... 
+  - Where prior consent was obtained from  respondents
+- Entails more stringent conditions of access (Secure access)
+
+- Early days, especially for everyday users but expanding area
+
+## Linked data examples
+
+- Understanding Society: 
+  - Scottish Education Data 2007-2018
+  - National Pupil Database (England)
+- Millennium Cohort Study
+  - Distances to English Grammar Schools, 2012
+  - Distances to Current, 1st, 2nd, and 3rd Choice Schools
+- Next Steps:
+  - Student Loans Company Records 2007-202
+  - Individualised Learner Records
+
+
+
+## Census records
+
+- Fine grained socio-demographic population estimates
+- By age group:
+
+  - Deprivation
+  - Economic activity
+  - Educational status 
+  - Ethnicity
+  - Disability
+- Typical application: population estimates for small areas
+
+##
+Residents aged 0-24 as a % of the population by [LSOAs](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies) , 2021
+
+![test](pics/mcr_map.png){fig-alt="Map  of Residents aged 0 to 24 as a percentage of the total all age  population Lower Super Output Areas,2021" width=80%}. 
+
+[Source](https://www.greatermanchester-ca.gov.uk/media/9833/census-2021-briefing-children-and-young-people.pdf)
+
+# Is this everything?
+
+## Young People and Gambling Survey 
+
+- Attitudes towards and participation in different types of gambling activities
+
+  - Legal  and age restricted gambling 
+
+- Data controller: Gambling Commission. 
+- 3,666 pupils aged 11 to 17 yo (school years 7 to 12 (S1 to S6 in Scotland
+- You can find it [here](https://datacatalogue.ukdataservice.ac.uk/studies/study/9499#detailsK)
+
+##  Children’s People and Nature Survey{.smaller}
+
+- Population:   young people aged 8-15 yo
+- Experience of and views about the natural environment 
+- Two waves: one in term time, one in holiday time.
+- Sample size:  about 4,000 per year,  2,000 per wave 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+  - Time spent outside
+  - Quality of outdoor spaces
+  - Opportunities and barriers to spending time outside
+:::
+
+::: {.column width="50%"}
+  - Environmental concerns and action
+  - Connection with nature
+  - Countryside code  
+:::
+
+::::
+
+- Commissioned by [Natural England](https://www.gov.uk/government/statistics/the-childrens-people-and-nature-survey-for-england-2024-update/the-childrens-people-and-nature-survey-for-england-2024-update). 
+- Study page on the [UK Data Service website](https://datacatalogue.ukdataservice.ac.uk/studies/study/9175#details)
+
+
+## Smoking, Drinking and Drug Use among Young People{.smaller}
+
+- About 17,000 young people aged 11 to 15 (2023) in England 
+- Focus on prevalence of smoking, drinking and drug taking 
+  - types of substance taken;
+  - how often pupils smoke, drink and take drugs
+  - where susbtance are obtained
+  - pupils' attitudes to these behaviours
+
+- Produced by [NHS England](https://digital.nhs.uk/data-and-information/areas-of-interest/public-health/smoking-drinking-and-drug-use-among-young-people-in-england). 
+- Study page on the [UK Data Service website](https://datacatalogue.ukdataservice.ac.uk/studies/study/9029)
+
+  
+## Qualitative & deposited research data
+
+  - No qualitative equivalent to the major quantitative studies but…
+  - ESRC grantholders are required to deposit their data
+  - A growing treasure trove of qualitative (and quantitative ) research data on various topics, including young people
+  - Often freely accessible via ReShare on the UKDS website, data owner authorisation  is sometimes required
+
+
+
+# Finding data
+
+## The main UKDS data catalogue page 
+
+![](pics/search.png){fig-alt="Screenshot of the main catalogue search page  on the UKDS website"} 
+
+## 
+
+![Catalogue search results for 'young people' - Studies tab](pics/studies.png){fig-alt="Screenshot of  catalogue search results for 'Young people' on the UKDS website"} 
+
+## 
+
+![Catalogue search results for 'young people' - ReShare tab](pics/reshare.png){fig-alt="Screenshot of the Reshare results of a UKDS catalogue search for Young People"}
+
+
+
+##  
+
+![The Youth Theme page of the UK Data Service catalogue](pics/youth_page.png){fig-alt="Screenshot of the Youth theme page on the UKDS website"} 
+
+
+
+## 
+![QualiBank catalogue search results for 'young people'](pics/qualibank.png){fig-alt="Screenshot of s search result for 'young people'in the Qualibank"} 
+
+
+# How to access the data
+
+## Levels of access{.smaller}
+![](pics/levels.png){fig-alt="A slide showwing the four levels of data access at the UK Data Service" width=80%} 
+
+- The lesser the conditions for accesssing the data, the fewer the details included
+- Open data includes fewer personal information; controlled data significantly more
+- Safeguarded data strikes a compromise between accessibility and level of detail
+<!-- ## Creating a project and downloading the data -->
+
+<!-- ## Secure datasets at the UK Data Service -->
+
+<!-- -   UKDS Secure Lab -->
+<!-- -   Access via encrypted web-based interface (\<Citrix VPN technology) -->
+<!-- -   No data download, access only from organisational desktop, in the UKDA Safe Room, one of the SafePods across the UK, and abroad via partner organisations -->
+<!-- -   Outputs subject to Statistical Disclosure Control (SDC) -->
+
+## How to access safeguarded data
+
+- Register with the UK Data Service
+
+  - Slightly differences for [UK academic users](https://ukdataservice.ac.uk/help/registration/how-to-register-if-you-are-a-uk-academic-user) and [other users](https://ukdataservice.ac.uk/help/registration/how-to-register-if-you-are-a-uk-academic-user/) 
+
+- Create a project ('non commercial', 'commercial', 'teaching')
+- Search, find and order the data
+- Add it to your project
+- Download it...
+- Et voilà.
+- The steps to follow are detailed  [on our website](https://ukdataservice.ac.uk/help/access-policy/how-to-download-and-order-your-data/)
+
+## Other levels of access
+
+- *Open data*: can be downloaded without registration
+- *ReShare data* (ie deposited) data: conditions will depend on the data owner; most of the time freely downloadable
+- *Controlled data:*
+
+  - Register
+  - Provide a detailed description of your project
+  - Apply for Safe Researcher certification
+  - Follow the Safe Researcher training
+  - Access the data via the SecureLab - ie secure VPN from an institutional computer
+  
+
+# Conclusion
+
+## Take aways
+
+- Wealth of data on young people and education
+- From surveys and beyond 
+- Education and other relevant topics
+- Different ways of searching
+- Different levels of access
+
+
+## {.center}
+
+**Thank you for your attention**
+
+Any questions: [help@ukdataservice.ac.uk](mailto://help@ukdataservice.ac.uk)
+
+## Links & reference {.smaller}
+
+
+- Greater Manchester Combined Authority (2023)  Census 2021 briefing: Children and young people, [GMCA Research](https://www.greatermanchester-ca.gov.uk/media/9833/census-2021-briefing-children-and-young-people.pdf)
+
+- Parra-Mujica F, Johnson E, Reed H, Cookson R, Johnson M (2023) Understanding the relationship between income and mental health among 16- to 24-year-olds: Analysis of 10 waves (2009–2020) of Understanding Society to enable modelling of income interventions. [PLOS ONE 18(2): e0279845.](https://doi.org/10.1371/journal.pone.0279845)
+- Understanding Society series page  at the [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/series/series/2000053#abstract)
+- [Understanding Society Young People page](https://www.understandingsociety.ac.uk/topic-page/young-people/)
+- UK Data Service (2018): Webinar: research Using Youth and Young Adult Data in Understanding Society: [Recording](https://www.youtube.com/watch?v=r66TKL5sbzg); [Slides ](https://ukdataservice.ac.uk/app/uploads/ukds-youth-and-young-adult-webinar-180718.pdf) 
+
+
+- Fang-Wei Wu, A., Henderson, M., Brown, M., Adali, T., Silverwood, R. J., Peycheva, D. and Calderwood, L. (2024). ‘Cohort Profile: Next Steps—the longitudinal study of people in England born in 1989–90’, International Journal of Epidemiology, 53(6), [doi: 10.1093/ije/dyae152](https://doi.org/10.1093/ije/dyae152)
+
+- Kandola A, Owen N, Dunstan DW, Hallgren M (2022). Prospective relationships of adolescents’ screen-based sedentary behaviour with depressive symptoms: the Millennium Cohort Study.Psychological Medicine 52, 3531–3539. [doi: 10.1017/S0033291721000258](https://doi.org/10.1017/S0033291721000258)
